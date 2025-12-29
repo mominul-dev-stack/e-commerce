@@ -1,0 +1,42 @@
+.nav-item{
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.nav-item:hover{
+    background-color: aqua;
+    margin-right: 5px;
+    padding: 0px 10px;
+}
+body{
+    background: linear-gradient(to top, rgb(140, 248, 140),rgb(247, 247, 107));
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.bg{
+    background-color: rgb(20, 236, 218);
+}
+
+input{
+    background-color: rgb(248, 250, 236) !important;
+}
+.box-shadow{
+   box-shadow: 0px 10px 13px -7px #000000, 11px 11px 43px 15px rgba(2,1,10,0.2);
+}
+
+.box-design{
+    min-height: 65vh;
+    background: #f7f1c0 !important;
+}
+
+.dropdown-item{
+    background-color: #472a03;
+    color: #fff;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.zoom-image img{
+    transition: 0.5s ease;
+}
+.zoom-image img:hover{
+    transform: scale(1.5);
+}
